@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+  <head>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap" rel="stylesheet">
+  <link href="style.css" rel="stylesheet">
+<ul>  
+  <li><a href="/">Home</a></li>
+  <li><a href="https://trsaot.github.io">Shady Alley Website</a></li>
+  <li><a href="Things.html">Things</a></li>
+  <li><a href="Other.html">Other</a></li>
+</ul>
+<div class="header title"><h2>Key329's website</h2></div>
+<body>
+<style>
+.column {
+  float: left;
+  margin-top: 100px;
+}
+.column.side {
+  width: 25%;
+}
+.column.middle {
+  width: 50%;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+#footer {
+position: relative;
+  margin-top: -1800px;
+  /* negative value of footer height */
+  height: 180px;
+  clear: both;
+  text-align: center;
+  color: white;
+  background-color: black;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media (max-width: 600px) {
+  .column.side, .column.middle {
+    width: 100%;
+  }
+}
+  </style>
+<div class="row">
+  <div class="column side about"><h1>My stuff</h1><p><a class="button" href="https://replit.com/@KEY329">My Replit</a><a class="button" href="https://github.com/key329">My Github</a></p></div>
+  <div class="column middle"><h1 class="about">About Me</h1><p>I am co-founder of the shady alley, founder of the SCA, owner of the Shady Alley Website and Much more!</p><h5 class="about">My channel trailer</h5><p class="about"><iframe width="420" height="345" src="https://www.youtube.com/embed/Qskm9MTz2V4 controls=0"></iframe></p></div>
+  <div class="column side about"><h1>Shady Alley Website!</h1><p>Shady Alley Website. Games Ytdownloaders and Lots of fun!</p><a class="button button2" href="https://trsaot.github.io">Go There</a></div>
+</div>
+<div id="wrap">
+  <div id="main"></div>
+</div>
+
+<div id="footer">Trademarked by Key329 enterprises 2021-2022</div>
+
+  </head>
+  </body>
+</html>
