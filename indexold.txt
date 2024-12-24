@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>u n b l o c k ' d</title>
+    <link href="/newstyle.css" rel="stylesheet" type="text/css" media="all">
+  </head>
+  <body>
+  <center> <!-- START announcements/updates -->
+    <h1>Hey! Welcome to<em> unblock'd</em>!</h1>
+    <h1><a href=/new/index.html>View the new style</a></h1>
+    <h2>We're glad to have you here.</h2>
+    <h3><strong>Version</strong> - v1.5 (Jan 12 9:42AM) - Complete website overhaul, new background, tons of good games added. Largest update yet!</h3> <!--This is a note-->
+    <p>Hi. Uh idk what to put here so i'll put a link to my <a href="https://www.github.com/Meowflow">GitHub</a> here i guess.</p>
+    <p>Please <strong>DO</strong> share this website! That's how we grow after all.</p>
+    <p><strong>6,256</strong> views. BRO TYSM</p>
+    <p>I know some stuff is uncentered, I will fix that</p>
+    <p>Some stuff is censored (in dashes, -) to avoid bl-cks.</p>
+    <p>We are FAR more superior than unblckd LMAO idiots L + bozo + ratio + No damsels? + No elixir?+Eat s--t BOZOS</p>
+    <h1>[!!!] SOME PEOPLE ARE CREATING COPIES OF OUR WEBSITE. PLEASE BE AWARE OF THIS. THIS IS THE ONLY UNBLOCK'D WEBSITE. [!!!]</h1>
+    <p>Link to request to add a site: <a href="https://forms.gle/SZReKNk8US3KBijL6">HERE</a></p>
+    <p>Link to request to add a site <strong>IN SCHOOL</strong>: <a href="https://forms.gle/RFsgdyf8Njunoodp6">HERE</a></p>
+    <h2><em><strong>REMEMBER TO SCROLL DOWN!</strong></em></h2> <!-- END announcements/updates -->
+    <a href="https://docs.google.com/document/d/11X4eW8Egs2IJyW_x_8gC5iH0Uc-4HuhRSsNc6siDBEM/edit">OFFICIAL unblock'd chat! (I know its a Google Doc, it's just a placeholder until xat works</a>
+    <p>Stuff:</p>
+    <ul>
+      <li><a href="https://google.com">Google [panic button]</a></li>
+      <li><a href=polishcow.html>Polish Cow</a></li>
+    </ul>
+    <p>Actual stuff that you came to this website to see lmao:</p>
+    <ul>
+      <li><a href=games.html>Games</a></li>
+      <li><a href=websites.html>Websites<strong> [NOTICE: STREAMING SITES WILL ALSO BE HERE]</strong></a></li>
+      <li><a href=retrostuff.html>ROMs and Emulators (Retro Stuff)</a></li>
+      <li><a href=bing.html>Bing (unbl-ck some websites)</a></li>
+    </ul>
+    <h3>Enjoy!</h3>
+    <a href="dev.html">Dev (DMCA + Takedown will be here too)</a>
+    <p>Copyright 2023 TRSAOT</p>
+    </center>
+  </body>
+</html>
