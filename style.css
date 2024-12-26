@@ -261,8 +261,42 @@ a:hover {
   border-radius: 4px;
   border: 2px solid #0070ff;
 }
+
+.button-group .button-g:hover {
+  background: linear-gradient(-45deg, #001638, #0e1390); 
+  color: #0070ff;
+  border: 2px solid #0070ff;
+  text-decoration: none;
+}
+ 
+.button-group .button-g {
+  background: linear-gradient(-45deg, #002157, #141ad2);
+  color: white;
+  padding: 12px 24px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  transition: 0.5s;
+  cursor: pointer;
+  border: 2px solid #0070ff;
+  margin: -2px; 
+}
+
+.button-group .button-g:not(:last-child) {
+  border-right: none; 
+}
+
+.button-group .button-g:first-child {
+  border-radius: 4px 0px 0px 4px;
+}
+.button-group .button-g:last-child {
+  border-radius: 0px 4px 4px 0px;
+}
+
+
 .roms {
-  background: linear-gradient(0deg, #155ac1, #061a37);  
+  background: linear-gradient(0deg, #0b4994, #061a37);
   padding-bottom: 50px;
   padding-left: 10%;
   padding-right: 10%;
@@ -282,4 +316,58 @@ li {
   margin: 0;
   padding: 2px;
   overflow: hidden;
+}
+input {
+  border: 2px solid #0070ff;
+  padding: 12px 24px;
+  font-size: 16px;
+  border-radius: 4px;
+  background: transparent;
+  color: #e0e0e0;
+  font-weight: bold;
+}
+.video-container {
+  margin-top: 20px;
+  width: 80%; /* Responsive width */
+  max-width: 800px; /* Maximum width */
+  aspect-ratio: 16 / 9; /* Maintain 16:9 aspect ratio */
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+}
+.video-container iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
+  display: block;
+}
+.cookie-popup {
+  position: fixed;
+  bottom: 0px;
+  background: linear-gradient(0deg, #101114, #121212);
+  border-top: 5px solid #295eff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 15px;
+  margin: 0; /* Removes any default or applied margin */
+  width: 100%; /* Ensure the container spans the full width of the viewport */
+  box-sizing: border-box; /* Includes padding and border in the width */
+  z-index: 1000;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.cookie-popup p {
+  margin: 0 0 10px 0;
+  text-align: center;
+}
+
+.cookie-popup .cookie-buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.hidden {
+  display: none;
 }

@@ -1,0 +1,119 @@
+.fadeInUp {
+    animation: fadeInUp 2s;
+  }
+  
+  @keyframes fadeInUp {
+    0% {
+      transform: translateY(50px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  
+  .credit-list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+  
+  .credit-item {
+    background: #1b1b1b;
+    border-radius: 8px;
+    border: 2px solid #0070ff;
+    padding: 30px;
+    width: 300px;
+    text-align: center;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    opacity: 0;
+    animation: fadeInUp 2s ease-out forwards;
+  }
+  
+  .credit-item-alt {
+    background: linear-gradient(to right, #013e7e, #0faada);
+    border-radius: 8px;
+    border: 2px solid #00236e;
+    padding: 30px;
+    width: 300px;
+    text-align: center;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    opacity: 0;
+    animation: fadeInUp 2s ease-out forwards;
+  }
+  
+  .credit-item-no {
+    background: linear-gradient(to right, #670202, #d92727);
+    border-radius: 8px;
+    border: 2px solid #2e0000;
+    padding: 30px;
+    width: 300px;
+    text-align: center;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    opacity: 0;
+    animation: fadeInUp 2s ease-out forwards;
+  }
+  
+  .act-item {
+    border-radius: 8px;
+    padding: 10px;
+    width: 80%;
+    text-align: center;
+    opacity: 0;
+    animation: fadeInUp 2s ease-out forwards;
+  }
+  
+  .credit-item:nth-child(1) {
+    animation-delay: 0.5s;
+  }
+  
+  .credit-item:nth-child(2) {
+    animation-delay: 1s;
+  }
+  
+  .credit-item:nth-child(3) {
+    animation-delay: 1.5s;
+  }
+  
+  .act-item:nth-child(1) {
+    animation-delay: 2s;
+  }
+  
+  .act-item:nth-child(2) {
+    animation-delay: 2.5s;
+  }
+  
+  .act-item:nth-child(3) {
+    animation-delay: 3s;
+  }
+  
+  .credit-item-alt:nth-child(1) {
+    animation-delay: 3.5s;
+  }
+  
+  .credit-item-alt:nth-child(2) {
+    animation-delay: 4s;
+  }
+  
+  .credit-item-no {
+    animation-delay: 4.5s;
+  }
+  
+  .credit-text {
+    font-size: 16px;
+    color: #979797;
+  }
+  
+  .credit-text-alt {
+    font-size: 16px;
+    color: #dcdcdc;
+  }
+  /* Acknowledgements Section */
+  .acknowledgements {
+    background: #121212;
+    padding: 50px 0;
+    text-align: center;
+  }
+  
