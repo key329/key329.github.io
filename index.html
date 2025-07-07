@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html>
-
 <head>
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2048214571560171"
      crossorigin="anonymous"></script>
@@ -13,6 +12,7 @@
   <script src="script.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
   <script src="https://accounts.google.com/gsi/client" async defer></script>
+  <script src="https://www.paypalobjects.com/donate/sdk/donate-sdk.js" charset="UTF-8"></script>
 </head>
 <body>
   <div class="header">
@@ -33,19 +33,15 @@
         <a class="a" href=credits.html>Credits</a>
       </div>
   </ul>
+<div class="alert" id="mobile-warning">
+    <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
+    <strong>⚠️ This website doesn't support mobile users. Please use a computer for the best experience.</strong>
+  </div>
   <div class="alert">
     <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
     <strong>Working on weekly/biweekly updates again :D Also working on getting more sites/domains!</strong>
   </div>
-  <div class="ad">
-    <ins class="adsbygoogle"
-         style="display:block; text-align:center;"
-         data-ad-client="ca-pub-2048214571560171"
-         data-ad-slot="1234567890"
-         data-ad-format="auto"></ins>
-    <script>
-         (adsbygoogle = window.adsbygoogle || []).push({});
-    </script>
+  <div class="Ad"></div>
   <div class="info-board">
     <h1 style="text-align: center;">Info Board</h1> <!-- START announcements/updates -->
 
@@ -55,6 +51,25 @@
       guess.</p>
     <p>Please <strong>DO</strong> share this website! That's how we grow after all.</p>
     <p><strong>400k</strong> views as of Dec 20, 2024. What. The. Heck. Seriously unbelievable. I started this website back in 2022 when I needed a collection of games for myself, and now look where this is. Thanks guys :DD</p>
+    <p>Also, if you want to support us, <strong>please consider donating</strong> to us via the button below. We try to keep our ads to a minimum and this is a way for us to achieve that goal while helping us keep the site running and adding more sites and games.</p>
+    <center>
+      <div id="paypal-donate-button-container"></div>
+  <script>
+   PayPal.Donation.Button({
+       env: 'sandbox',
+       hosted_button_id: 'YOUR_SANDBOX_HOSTED_BUTTON_ID',
+       // business: 'YOUR_EMAIL_OR_PAYERID',
+       image: {
+           src: 'https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif',
+           title: 'PayPal - The safer, easier way to pay online!',
+           alt: 'Donate with PayPal button'
+       },
+       onComplete: function (params) {
+           // Your onComplete handler
+       },
+   }).render('#paypal-donate-button-container');
+</script>
+    </center>
   </div>
   <center>
     <h3>Link to request to add a site:<br></h3>
@@ -64,7 +79,7 @@
     <div class="games">
       <center>
         <h1 style="padding-top: 50px;">Games</h1>
-      </center>
+        </center>
       <div class="row">
         <div class="column middle" style="margin-right: 10%; padding-bottom: 50px;">
           <img src="games.png" alt="Games" width="100%" height="100%" style="margin-top: 50px; border-radius: 5px;">
@@ -118,6 +133,7 @@
         </div>
       </div>
     </div>
+    <center>
     <div class="footer">
       <a href="dev.html">Dev</a>
       <h3>Contact Us</h3>
