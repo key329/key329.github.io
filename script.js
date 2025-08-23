@@ -27,7 +27,7 @@ document.addEventListener('DOMContentLoaded', () => {
     <div id="cookie-consent" class="cookie-popup">
       <p>
         We use cookies to enhance your experience. By clicking "Accept", you agree to the use of cookies.
-        Read our <a href="privacy-policy.html">Privacy Policy</a>.
+        Read our <a href="policys.html">Privacy Policy</a>.
       </p>
       <div class="cookie-buttons">
         <button class="button" id="accept-cookies"><strong>Accept</strong></button>
