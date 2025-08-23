@@ -12,7 +12,18 @@
       opacity: 1;
     }
   }
-  
+.credit-a {
+  color: #e0e0e0;
+  text-decoration: none;
+  text-decoration: none;
+}
+.credit-a:hover {
+  text-decoration: none;
+  font-weight: 450;
+  color: #3673c4;
+  cursor: pointer;
+}
+
   .credit-list {
     display: flex;
     justify-content: center;
