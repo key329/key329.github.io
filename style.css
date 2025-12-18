@@ -1,6 +1,5 @@
-html,
-body {
-  height: 100%;
+body, html {
+  height: auto%;
   width: 100%;
   padding: 0px;
   margin: 0px;
@@ -370,10 +369,6 @@ input {
 
 .hidden {
   display: none;
-}
-
-.Ad {
-  text-align: center;
 }
 
 #mobile-warning {
