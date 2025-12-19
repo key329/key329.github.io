@@ -327,9 +327,9 @@ input {
 }
 .video-container {
   margin-top: 20px;
-  width: 80%; /* Responsive width */
-  max-width: 800px; /* Maximum width */
-  aspect-ratio: 16 / 9; /* Maintain 16:9 aspect ratio */
+  width: 80%;
+  max-width: 800px;
+  aspect-ratio: 16 / 9;
   margin-left: auto;
   margin-right: auto;
   position: relative;
@@ -347,9 +347,9 @@ input {
   border-top: 5px solid #295eff;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   padding: 15px;
-  margin: 0; /* Removes any default or applied margin */
-  width: 100%; /* Ensure the container spans the full width of the viewport */
-  box-sizing: border-box; /* Includes padding and border in the width */
+  margin: 0;
+  width: 100%;
+  box-sizing: border-box;
   z-index: 1000;
   display: flex;
   flex-direction: column;
